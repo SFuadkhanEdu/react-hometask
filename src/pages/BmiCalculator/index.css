@@ -1,0 +1,16 @@
+.bmi_section {
+    margin: 50px 0;
+    border-radius: 40px;
+    background-color: gray;
+    border: wheat;
+}
+.bmi_section input{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 50px;
+}
+.bmi_section button{
+    margin-bottom: 30px;
+}

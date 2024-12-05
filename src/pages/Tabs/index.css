@@ -1,0 +1,10 @@
+.active_tab_p{
+    display: block !important;
+}
+.tabs_container p{
+    padding: 15px 10px;
+    border-radius: 50px;
+    display: none;
+    overflow: hidden;
+    background-color: gray;
+}

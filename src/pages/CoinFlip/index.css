@@ -1,0 +1,50 @@
+.coin_flip_section {
+    perspective: 3000px;
+    height: 850px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  .coin_flip_section .coin {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 1s ease-in-out;
+    transform-origin: center; /* Ensures the flip happens around the center */
+  }
+  
+  .coin_flip_section .coin.flipping {
+    transform: rotateY(1800deg); /* 5 full rotations for a nice flip effect */
+  }
+  
+  .coin_flip_section .fifty_gep, .one_gep {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .coin_flip_section .one_gep {
+    transform: rotateY(180deg); /* Flip the second image */
+  }
+  
+  .coin_flip_section button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .coin_flip_section #result_img{
+    position: absolute;
+        width: 600px;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+
+  }
